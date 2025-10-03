@@ -4,6 +4,15 @@ This repository contains benchmark results from a kdevops demonstration of vLLM 
 
 ## Test Results
 
+### VM Benchmark Report (Real vLLM Production Stack)
+**64 vCPUs | 64 GiB RAM | Real vLLM Engine**
+
+- **HTML Report**: [View Report](https://htmlpreview.github.io/?https://github.com/mcgrof/demo-vllm-benchmark/blob/master/vm-results/index.html) | [Raw HTML](vm-results/index.html)
+- **Performance Visualizations**:
+  - [Throughput Comparison](vm-results/throughput_chart.png)
+  - [Latency Distribution](vm-results/latency_chart.png)
+  - [Success Rate Overview](vm-results/success_rate_chart.png)
+
 ### Benchmark Report
 - **HTML Report**: [View Report](https://htmlpreview.github.io/?https://github.com/mcgrof/demo-vllm-benchmark/blob/master/index.html) | [Raw HTML](index.html)
 - **Performance Visualizations**:
