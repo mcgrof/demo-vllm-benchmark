@@ -13,6 +13,23 @@ This repository contains benchmark results from a kdevops demonstration of vLLM 
   - [Latency Distribution](vm-results/latency_chart.png)
   - [Success Rate Overview](vm-results/success_rate_chart.png)
 
+### CPU Benchmark Report (Real Hardware - Production Server)
+**128 CPUs | 1 TiB RAM | 2x Intel Xeon Gold 6438Y+ | Real vLLM Engine**
+
+- **HTML Report**: [View Report](https://htmlpreview.github.io/?https://github.com/mcgrof/demo-vllm-benchmark/blob/master/cpu-results/index.html) | [Raw HTML](cpu-results/index.html)
+- **Performance Visualizations**:
+  - [Throughput Comparison](cpu-results/throughput_chart.png)
+  - [Latency Distribution](cpu-results/latency_chart.png)
+  - [Success Rate Overview](cpu-results/success_rate_chart.png)
+
+**System Specifications**:
+- **Processor**: 2x Intel Xeon Gold 6438Y+ (32 cores/socket, 2 threads/core)
+- **Total Threads**: 128
+- **Memory**: 1 TiB
+- **NUMA Nodes**: 2
+- **Architecture**: x86_64
+- **CPU Max MHz**: 4000.0000
+
 ### Benchmark Report
 - **HTML Report**: [View Report](https://htmlpreview.github.io/?https://github.com/mcgrof/demo-vllm-benchmark/blob/master/index.html) | [Raw HTML](index.html)
 - **Performance Visualizations**:
