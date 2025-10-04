@@ -4,14 +4,14 @@ This repository contains benchmark results from a kdevops demonstration of vLLM 
 
 ## Test Results
 
-### VM Benchmark Report (Real vLLM Production Stack)
-**64 vCPUs | 64 GiB RAM | Real vLLM Engine**
+### GPU Benchmark Report (GPU Acceleration)
+**1 vCPU | 227 GiB RAM | GPU-Accelerated vLLM Engine**
 
-- **HTML Report**: [View Report](https://htmlpreview.github.io/?https://github.com/mcgrof/demo-vllm-benchmark/blob/master/vm-results/index.html) | [Raw HTML](vm-results/index.html)
+- **HTML Report**: [View Report](https://htmlpreview.github.io/?https://github.com/mcgrof/demo-vllm-benchmark/blob/master/gpu-results/index.html) | [Raw HTML](gpu-results/index.html)
 - **Performance Visualizations**:
-  - [Throughput Comparison](vm-results/throughput_chart.png)
-  - [Latency Distribution](vm-results/latency_chart.png)
-  - [Success Rate Overview](vm-results/success_rate_chart.png)
+  - [Throughput Comparison](gpu-results/throughput_chart.png)
+  - [Latency Distribution](gpu-results/latency_chart.png)
+  - [Success Rate Overview](gpu-results/success_rate_chart.png)
 
 ### CPU Benchmark Report (Real Hardware - Production Server)
 **128 CPUs | 1 TiB RAM | 2x Intel Xeon Gold 6438Y+ | Real vLLM Engine**
@@ -30,14 +30,14 @@ This repository contains benchmark results from a kdevops demonstration of vLLM 
 - **Architecture**: x86_64
 - **CPU Max MHz**: 4000.0000
 
-### GPU Benchmark Report (GPU Acceleration)
-**1 vCPU | 227 GiB RAM | GPU-Accelerated vLLM Engine**
+### VM Benchmark Report (Real vLLM Production Stack)
+**64 vCPUs | 64 GiB RAM | Real vLLM Engine**
 
-- **HTML Report**: [View Report](https://htmlpreview.github.io/?https://github.com/mcgrof/demo-vllm-benchmark/blob/master/gpu-results/index.html) | [Raw HTML](gpu-results/index.html)
+- **HTML Report**: [View Report](https://htmlpreview.github.io/?https://github.com/mcgrof/demo-vllm-benchmark/blob/master/vm-results/index.html) | [Raw HTML](vm-results/index.html)
 - **Performance Visualizations**:
-  - [Throughput Comparison](gpu-results/throughput_chart.png)
-  - [Latency Distribution](gpu-results/latency_chart.png)
-  - [Success Rate Overview](gpu-results/success_rate_chart.png)
+  - [Throughput Comparison](vm-results/throughput_chart.png)
+  - [Latency Distribution](vm-results/latency_chart.png)
+  - [Success Rate Overview](vm-results/success_rate_chart.png)
 
 ### Benchmark Report
 - **HTML Report**: [View Report](https://htmlpreview.github.io/?https://github.com/mcgrof/demo-vllm-benchmark/blob/master/index.html) | [Raw HTML](index.html)
