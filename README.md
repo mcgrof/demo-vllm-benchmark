@@ -30,6 +30,15 @@ This repository contains benchmark results from a kdevops demonstration of vLLM 
 - **Architecture**: x86_64
 - **CPU Max MHz**: 4000.0000
 
+### GPU Benchmark Report (GPU Acceleration)
+**1 vCPU | 227 GiB RAM | GPU-Accelerated vLLM Engine**
+
+- **HTML Report**: [View Report](https://htmlpreview.github.io/?https://github.com/mcgrof/demo-vllm-benchmark/blob/master/gpu-results/index.html) | [Raw HTML](gpu-results/index.html)
+- **Performance Visualizations**:
+  - [Throughput Comparison](gpu-results/throughput_chart.png)
+  - [Latency Distribution](gpu-results/latency_chart.png)
+  - [Success Rate Overview](gpu-results/success_rate_chart.png)
+
 ### Benchmark Report
 - **HTML Report**: [View Report](https://htmlpreview.github.io/?https://github.com/mcgrof/demo-vllm-benchmark/blob/master/index.html) | [Raw HTML](index.html)
 - **Performance Visualizations**:
